@@ -6,6 +6,10 @@ import styled from "styled-components";
 import { BookProps } from "../components/Book/Book";
 import Modal from "../components/Modal/Modal";
 
+// eslint-disable-next-line no-script-url
+const newLocal =
+  // eslint-disable-next-line no-script-url
+  "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg";
 const booksData: BookProps[] = [
   {
     id: 1,
@@ -14,7 +18,7 @@ const booksData: BookProps[] = [
     author: "Dave Thomas, Andy Hunt",
     published: "1999",
     pages: 352,
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg",
+    img: newLocal,
   },
   {
     id: 2,
@@ -23,16 +27,17 @@ const booksData: BookProps[] = [
     author: "Robert C. Martin",
     published: "2008",
     pages: 464,
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg",
+    img: newLocal,
   },
   {
     id: 3,
+    // eslint-disable-next-line no-script-url
     title: "JavaScript: The Good Parts",
     desc: "Unearthing the Excellence in JavaScript",
     author: "Douglas Crockford",
     published: "2008",
     pages: 176,
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg",
+    img: newLocal,
   },
   {
     id: 4,
@@ -41,7 +46,7 @@ const booksData: BookProps[] = [
     author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
     published: "1994",
     pages: 395,
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg",
+    img: newLocal,
   },
   {
     id: 5,
@@ -50,7 +55,7 @@ const booksData: BookProps[] = [
     author: "Steve McConnell",
     published: "1993",
     pages: 914,
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg",
+    img: newLocal,
   },
   {
     id: 6,
@@ -59,7 +64,7 @@ const booksData: BookProps[] = [
     author: "Frederick P. Brooks Jr.",
     published: "1975",
     pages: 322,
-    img: "https://upload.wikimedia.org/wikipedia/commons/8/89/Book_stub_img.svg",
+    img: newLocal,
   },
 ];
 
