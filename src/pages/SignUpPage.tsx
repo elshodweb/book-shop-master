@@ -4,7 +4,7 @@ import SocialBtn from "../components/SocialBtn/SocialBtn";
 import MyInput from "../components/MyInput/MyInput";
 import Or from "../components/Or/Or";
 import MyButton from "../components/Button/Button";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { axiosInstance } from "../axios";
 
 interface IUserData {

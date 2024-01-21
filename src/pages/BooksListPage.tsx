@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import MyHeader from "../components/Header/MyHeader";
 import SubHeader from "../components/SubHeader/SubHeader";
 import BooksList from "../components/BooksList/BooksList";
@@ -99,4 +99,3 @@ const BooksListPage = () => {
 };
 
 export default BooksListPage;
-

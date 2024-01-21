@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 import { BooksListPage, NotFoundPage, SignInPage, SignUpPage } from "../pages";
 import { axiosInstance } from "../axios";
@@ -14,11 +13,12 @@ const RouterPage = () => {
       .get("/myself", {
         headers,
       })
-      .catch((err) => {console.log(err)});
+      .catch((err) => {
+        console.log(err);
+      });
 
     return res?.data;
   }
-  
 
   // api`da signUp`dan boshqasi ishlamayapti
   // dozumentatsiyadagi kabi va boshqa usularda ham qilib ko'rdim
@@ -35,4 +35,3 @@ const RouterPage = () => {
 };
 
 export default RouterPage;
-
